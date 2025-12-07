@@ -1,10 +1,8 @@
 const form = document.querySelector('.login-form');
 form.addEventListener('submit', event => {
   event.preventDefault();
-  console.log('🚀 ~ form:', form);
 
   const objEl = form.elements;
-  console.log('🚀 ~ objEl:', objEl);
 
   const emailValue = objEl.email.value.trim();
   const passwordValue = objEl.password.value.trim();
